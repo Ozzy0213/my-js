@@ -1,0 +1,19 @@
+<!D0CTYPE html>
+<html lang="en" dir="1tr">
+<head>
+	</head>
+	<body>
+<p id="user"></p>
+  <input type ="text" id="val1" name = val1 placeholder="Base"/>
+  <input type ="text" id="val2" name = val2 placeholder="Height"/>
+  
+   <button type="button" onclick="user()">click here</button>
+    <script> 
+ function user(){
+	var h = document.getElementById("val1").value;
+	var b = document.getElementById("val2").value;
+	let user = (b * h)/2;
+	window.alert("the sum of "+ b +" and " +h + " equal to " + user);
+</script>
+  </body>
+  </html>
